@@ -10,8 +10,20 @@ import Testing
 
 struct YarukilLogTests {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test func makeDateKeyUsesLocalDate() async throws {
+        var calendar = Calendar(identifier: .gregorian)
+        let timeZone = TimeZone(identifier: "Asia/Tokyo")!
+        calendar.timeZone = timeZone
+
+        let date = Date(timeIntervalSince1970: 1_699_000_000) // 2023-10-05T20:26:40+09:00
+        let key = LogStore.makeDateKey(for: date, calendar: calendar, timeZone: timeZone)
+        #expect(key == "2023-10-05")
+    }
+
+    @Test func normalizedDatesRemovesDuplicatesAndSortsDesc() async throws {
+        let input = ["2026-02-02", "2026-02-01", "2026-02-02", "2025-12-31"]
+        let normalized = LogStore.normalizedDates(input)
+        #expect(normalized == ["2026-02-02", "2026-02-01", "2025-12-31"])
     }
 
 }
