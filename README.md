@@ -33,5 +33,12 @@
 - Xcode（iOSアプリプロジェクト）
 - プロジェクト: `YarukilLog.xcodeproj`
 
+##  App Store リンク
+https://apps.apple.com/jp/app/%E3%82%84%E3%82%8B%E6%B0%97%E3%81%AE%E5%87%BA%E3%81%AA%E3%81%84%E6%97%A5%E3%83%AD%E3%82%B0-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97/id6758742783
+
+## プライバシーポリシー
+https://sites.google.com/view/hamakazesoft-yarukidenailog/%E3%83%9B%E3%83%BC%E3%83%A0
+(こっちをMITに変更する必要性)
+
 ## ライセンス
 MIT License
