@@ -42,3 +42,8 @@ https://sites.google.com/view/hamakazesoft-yarukidenailog/%E3%83%9B%E3%83%BC%E3%
 
 ## ライセンス
 MIT License
+
+
+This project is licensed under the MIT License.
+See LICENSE for details.
+
