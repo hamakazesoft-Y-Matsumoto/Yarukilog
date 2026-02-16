@@ -38,7 +38,7 @@ https://apps.apple.com/jp/app/%E3%82%84%E3%82%8B%E6%B0%97%E3%81%AE%E5%87%BA%E3%8
 
 ## プライバシーポリシー
 https://sites.google.com/view/hamakazesoft-yarukidenailog/%E3%83%9B%E3%83%BC%E3%83%A0
-(こっちをMITに変更する必要性)
+
 
 ## ライセンス
 MIT License
